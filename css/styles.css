@@ -2,8 +2,7 @@
 .mask{
   background-image: url("../images/backgrounds/landing.jpg");
   background-size: 100% 100%;
-  margin-bottom:10px;
-  padding-bottom:150px;
+  padding-bottom:83px;
   padding-top:26px;
 }
 nav{
@@ -131,6 +130,13 @@ nav{
   letter-spacing: 1px;
   margin-top: 3px;
   color :white;
+}
+.intro{
+  margin-bottom: -5px;
+}
+h1 span{
+  margin-bottom: -75px;
+  font-weight: 600
 }
 /*logo*/
 
