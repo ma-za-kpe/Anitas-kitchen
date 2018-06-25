@@ -432,7 +432,53 @@ ul li a{
 }
 .item{
   margin-top:50px;
+  margin-bottom:0px;
+}
+/*last*/
+.white{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-top: 100px;
+    background: white;
+    max-width: 75%;
+    margin-bottom: 100px;
+}
+.c{
+  margin-left: 150px;
+  margin-top: -10px;
+  width: 250px;
+  height: 50px;
+  padding-bottom: 50px;
+}
+.c .item{
+  margin-top:50px;
   margin-bottom:50px;
 }
+/*footer*/
+.footer1{
+    background-image: url("../images/backgrounds/subscribe.jpg");
+    padding-bottom: 140px;
+}
+div h3{
+  margin-top: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+}
+.f {
+    width: 400px;;
+}
+.col-sm-10 button{
+  background: #F15A29 ;
+  width: 200px;
+  float: right;
+  margin-top: -50px;
+  margin-right: 200px;
+}
 
+.col-sm-10 input{
+  margin-top: 40px;
+  width: 500px;
+  margin-left: 200px;
+}
 /**main/
