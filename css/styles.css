@@ -481,4 +481,17 @@ div h3{
   width: 500px;
   margin-left: 200px;
 }
+
+.footer2{
+    background: #F15A29;
+}
+.burger{
+  float: left;
+}
+h2{
+  margin-top: -150px;
+  float: left;
+  font-size: 30px;
+  font-weight: 600;
+}
 /**main/
