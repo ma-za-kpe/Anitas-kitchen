@@ -260,5 +260,62 @@ p.fast1{
 button span{
   padding-left: 20px;
 }
+/*second row*/
+.x{
+  margin-top: 100px;
+}
+.food1{
+  margin-top: -15px;
+  margin-left: -70px;
+  height: 400px;
+}
+.food1 h2{
+  padding-top: 35px;
+  font-size: 50px;
+}
+p.fast2{
+  font-weight: bold;
+  font-size: 18px;
+}
+p.fast3{
+  font-size: 16px;
+}
+#btn1{
+  color: #F15A29;
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid #F15A29;
+  border-radius: 2px;
+}
+button#btn1 span{
+  padding-left: 5px;
+}
+/*second image box*/
+.drop-shadow1 {
+  margin-right: -0px;
+  margin-left: 70px;
+  height: 440px;
+  width: -200px;
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+  border-radius:5px;
+}
+.drop-shadow1 img{
+  width: 230px;
+  height: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 8px;
+}
+.two1{
+  margin-left: 8px;
+  margin-top: -20px;
+}
+.two2{
+  margin-top: -20px;
+  margin-left: -13px;
+}
 /*fastFood*/
 /**main/
