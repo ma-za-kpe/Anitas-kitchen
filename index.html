@@ -5,6 +5,7 @@
     <title>Annets Kitchen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
@@ -162,42 +163,18 @@
 
         <div class="row">
           <div class="col-lg-8 text-center">
-            <h3>Our Happy customers</h3>
+            <h3 id="h33">Our Happy customers</h3>
             <h4>George Richard</h4>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  rperferendis doloribus asperiores repellat. Etiam quis quam. Etiam neque. </p>
             <div class="row">
-              <div class="col-lg-8">
-                <div class="carousel c slide multi-item-carousel" id="theCarousel">
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <div class="col-xs-4"><a href="#1"><img src="images/fastfood/beefBurger.jpg" class="img-responsive"></a></div>
-                    </div>
-                    <div class="item">
-                      <div class="col-xs-4"><a href="#1"><img src="images/fastfood/chickenBurger.jpg" class="img-responsive"></a></div>
-                    </div>
-                    <div class="item">
-                      <div class="col-xs-4"><a href="#1"><img src="images/fastfood/chickenPizza.jpg" class="img-responsive"></a></div>
-                    </div>
-                    <div class="item">
-                      <div class="col-xs-4"><a href="#1"><img src="images/fastfood/beefBurger.jpg" class="img-responsive"></a></div>
-                    </div>
-                    <div class="item">
-                      <div class="col-xs-4"><a href="#1"><img src="images/fastfood/chickenBurger.jpg" class="img-responsive"></a></div>
-                    </div>
-                    <div class="item">
-                      <div class="col-xs-4"><a href="#1"><img src="images/fastfood/chickenPizza.jpg" class="img-responsive"></a></div>
-                    </div>
-                    <!-- add  more items here -->
-
-                    <!--  Example item end -->
-                  </div>
-                  <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                  <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-                </div>
+              <div class="col-lg-8 img">
+                <img src="images/customers/p1.png" alt="">
+                <img src="images/customers/p2.png" alt="">
+                <img src="images/customers/p3.png" alt="">
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" id="about">
             <h3>About Menu</h3>
             <p>Nam sed tellus id magna elementum tincidunt. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. In convallis. Fusce aliquam vestibulum ipsum.</p>
           </div>
@@ -209,11 +186,11 @@
     <!-- footer -->
     <div class="container-fluid footer1 text-center">
       <div class="container">
-        <h3>Get our daily food items delivered to your email</h3>
+        <h3 id="mail">Get our daily food items delivered to your email</h3>
         <form class="form-horizontal" action="/action_page.php">
           <div class="form-group">
             <div class="col-sm-10">
-              <input type="email" class="form-control f" id="email" placeholder="Enter email" name="email">
+              <input  id="email" type="email" class="form-control f" id="email" placeholder="Enter email" name="email">
             </div>
           </div>
           <div class="form-group">
@@ -224,21 +201,23 @@
         </form>
       </div>
     </div>
-    <div class="container-fluid footer2 text-center">
+    <div class="container-fluid footer2 text-center" id="row8">
 
       <div class="row">
         <div class="col-lg-12">
           <header>
-            <img  class="burger" src="images/footerlogos/logo_white.png" alt="burger">
-            <h2>MENU</h2>
-            <h4>Thats What We Are</h4>
+            <img  class="burger" id="img" src="images/footerlogos/logo_white.png" alt="burger">
+            <h2 id="h2">MENU</h2>
           </header>
-          <ul>
-            <li> <a href="#"> <img src="images/footerlogos/facebook.png" alt="facebook"> </a> </li>
-            <li> <a href="#"> <img src="images/footerlogos/pinterest.png" alt="pinterest"> </a> </li>
-            <li> <a href="#"> <img src="images/footerlogos/twitter.png" alt="twitter"> </a> </li>
-          </ul>
-          <p>2016 Menu Restaurant</p>
+          <h4 id="h4">Thats What We Are</h4>
+          <div class="icon">
+            <ul>
+              <li> <a href="#"> <img src="images/footerlogos/facebook.png" alt="facebook"> </a> </li>
+              <li> <a href="#"> <img src="images/footerlogos/pinterest.png" alt="pinterest"> </a> </li>
+              <li> <a href="#"> <img src="images/footerlogos/twitter.png" alt="twitter"> </a> </li>
+            </ul>
+          </div>
+          <p id="last">2016 Menu Restaurant</p>
         </div>
       </div>
 

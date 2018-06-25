@@ -234,18 +234,23 @@ h2 {
 }
 .food{
   margin-top: -15px;
-  margin-left: -70px;
+  margin-left: 70px;
   height: 400px;
 }
 .food h2{
-  padding-top: 35px;
+  float: left;
+  margin-bottom: -120px;
+  margin-top: -5px;
   font-size: 50px;
 }
 p.fast{
+  float: left;
+  margin-top: 130px;
   font-weight: bold;
   font-size: 18px;
 }
 p.fast1{
+  float: left;
   font-size: 16px;
 }
 #btn{
@@ -265,15 +270,18 @@ button span{
   margin-top: 100px;
 }
 .food1{
+  margin-bottom: 20px;
   margin-top: -15px;
   margin-left: -70px;
   height: 400px;
 }
 .food1 h2{
+  float: right;
   padding-top: 35px;
   font-size: 50px;
 }
 p.fast2{
+  margin-top: 130px;
   font-weight: bold;
   font-size: 18px;
 }
@@ -443,6 +451,13 @@ ul li a{
     max-width: 75%;
     margin-bottom: 100px;
 }
+.img{
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+#about{
+  border-left: 1px solid black;
+}
 .c{
   margin-left: 150px;
   margin-top: -10px;
@@ -457,13 +472,18 @@ ul li a{
 /*footer*/
 .footer1{
     background-image: url("../images/backgrounds/subscribe.jpg");
+    position: cover;
     padding-bottom: 140px;
+    color: white;
 }
-div h3{
+#mail{
   margin-top: 100px;
-  color: white;
+}
+ #h33{
+  margin-top: 20px;
+  color: black;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 20px;
 }
 .f {
     width: 400px;;
@@ -471,11 +491,15 @@ div h3{
 .col-sm-10 button{
   background: #F15A29 ;
   width: 200px;
+  height: 60px;
   float: right;
-  margin-top: -50px;
+  margin-top: -75px;
   margin-right: 200px;
 }
-
+#email{
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 60px;
+}
 .col-sm-10 input{
   margin-top: 40px;
   width: 500px;
@@ -483,15 +507,37 @@ div h3{
 }
 
 .footer2{
-    background: #F15A29;
+  color: white;
+  background: #F15A29;
 }
-.burger{
+img#img{
+  margin-top: 70px;
   float: left;
+  margin-left: 600px;
 }
-h2{
-  margin-top: -150px;
-  float: left;
-  font-size: 30px;
-  font-weight: 600;
+h2#h2{
+  float: right;
+  margin-right: 500px;
+  font-size: 40px;
+}
+h4#h4{
+  margin-left: 90px;
+  margin-top: 150px;
+}
+.icon ul {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.icon ul li {
+  padding: 5px;
+  display: inline;
+  text-decoration: none;
+}
+.icon ul li a img{
+  color: #F15A29;
+}
+a.icon-twitter          {color:#00B6F1;}
+#last{
+  margin-left: 80px;
 }
 /**main/
