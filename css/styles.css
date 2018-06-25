@@ -143,10 +143,68 @@ h1 span{
 /*mask*/
 
 /*main*/
+.time{
+  margin-left: -15px;
+  margin-right: 15px;
+}
 .happyHour{
+  padding-top: 30px;
+  margin:0 0 0 0;
+  height: 95px;
+  width: 329px;
   background-color: #CBC9CD;
   }
 .partyTime{
+  padding-top: 30px;
+  margin-top: 0px;
+  height: 95px;
+  width: 329px;
+  color: white;
   background-color: #F15A29;
+}
+div h2{
+  padding-top: 58px;
+}
+.breakfast{
+  padding-bottom: 69px;
+  color: white;
+  background-image: url("../images/foodtop/breakfast.jpg");
+   }
+.breakfast {
+   position:relative; z-index:10;
+ }
+.breakfast:hover {
+  opacity:0.5;
+ }
+h2 {
+  position:relative; z-index:10;
+}
+.lunch{
+  padding-bottom: 69px;
+  color: white;
+  background-image: url("../images/foodtop/lunch.jpg");
+}
+.lunch {
+   position:relative; z-index:10;
+ }
+.lunch:hover {
+  opacity:0.5;
+ }
+h2 {
+  position:relative; z-index:10;
+}
+.dinner{
+  padding-bottom: 69px;
+  color: white;
+  background-image: url("../images/foodtop/dinner.jpg");
+}
+.dinner {
+   position:relative; z-index:10;
+ }
+.dinner:hover {
+  opacity:0.5;
+ }
+h2 {
+  position:relative; z-index:10;
 }
 /**main/
