@@ -215,6 +215,7 @@ h2 {
   margin-left: 200px;
 }
 .drop-shadow {
+  margin-right: -0px;
   margin-left: 12px;
   height: 400px;
   width: -200px;
@@ -230,6 +231,34 @@ h2 {
 }
 .two{
   margin-top: -20px;
+}
+.food{
+  margin-top: -15px;
+  margin-left: -70px;
+  height: 400px;
+}
+.food h2{
+  padding-top: 35px;
+  font-size: 50px;
+}
+p.fast{
+  font-weight: bold;
+  font-size: 18px;
+}
+p.fast1{
+  font-size: 16px;
+}
+#btn{
+  color: #F15A29;
+  padding: 10px;
+  width: 180px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid #F15A29;
+  border-radius: 2px;
+}
+button span{
+  padding-left: 20px;
 }
 /*fastFood*/
 /**main/
